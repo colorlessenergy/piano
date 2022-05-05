@@ -9,3 +9,70 @@ body {
 * {
     box-sizing: border-box;
 }
+
+.container {
+    margin: 0 20px;
+    max-width: 1200px;
+}
+
+.piano {
+    height: 70vh;
+    width: 100%;
+}
+
+.piano-top {
+    height: 30%;
+
+    background-color: #333333;
+}
+
+.piano-bottom {
+    display: flex;
+    height: 70%;
+    position: relative;
+}
+
+.piano-black-key {
+    height: 60%;
+    width: 5%;
+    position: absolute;
+
+    background-color: #333333;
+}
+
+.piano-black-key-0 {
+    left: 12%;
+}
+
+.piano-black-key-1 {
+    left: 26%;
+}
+
+.piano-black-key-2 {
+    left: 55%;
+}
+
+.piano-black-key-3 {
+    left: 69%;
+}
+
+.piano-black-key-4 {
+    left: 83%;
+}
+
+.piano-white-key {
+    border: 1px solid #333333;
+    border-right: none;
+    height: 100%;
+    width: 171.428px;
+}
+
+.piano-white-key:last-of-type {
+    border-right: 1px solid #333333;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        margin: 0 auto;
+    }
+}
