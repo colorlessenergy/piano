@@ -40,23 +40,23 @@ body {
     background-color: #333333;
 }
 
-.piano-black-key-0 {
+.piano-black-key-c-3 {
     left: 12%;
 }
 
-.piano-black-key-1 {
+.piano-black-key-d-3 {
     left: 26%;
 }
 
-.piano-black-key-2 {
+.piano-black-key-f-3 {
     left: 55%;
 }
 
-.piano-black-key-3 {
+.piano-black-key-g-3 {
     left: 69%;
 }
 
-.piano-black-key-4 {
+.piano-black-key-a-3 {
     left: 83%;
 }
 
